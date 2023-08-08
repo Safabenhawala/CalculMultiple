@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculMultiple
 {
-    class Multiple
+   public class Multiple
     {
         public string Multiple_3(int n) {
 
