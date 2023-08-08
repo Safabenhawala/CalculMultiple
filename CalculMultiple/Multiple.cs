@@ -18,6 +18,11 @@ namespace CalculMultiple
 
         public string Multiple_5(int n)
         {
+            if (n == 0)
+            {
+
+                throw new NullReferenceException("test erroné !"); 
+            }
 
             if (n % 5 == 0)
             {

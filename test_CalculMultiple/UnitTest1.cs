@@ -16,5 +16,16 @@ namespace test_CalculMultiple
 
             Assert.AreEqual("n n'est pas de multiple du 3", result); ; 
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void Test_Multiple_5()
+        {
+            CalculMultiple.Multiple m = new CalculMultiple.Multiple();
+
+            string result = m.Multiple_5(0);
+
+            Assert.AreEqual("n est de multiple du 5", result); ;
+        }
     }
 }
